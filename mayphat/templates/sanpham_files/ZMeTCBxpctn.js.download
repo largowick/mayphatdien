@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }
+
+__d("relay-runtime/mutations/readUpdatableFragment_EXPERIMENTAL",["invariant","relay-runtime/mutations/createUpdatableProxy","relay-runtime/query/GraphQLTag","relay-runtime/store/RelayModernSelector","relay-runtime/store/RelayStoreUtils"],(function(a,b,c,d,e,f,g){"use strict";var h=b("relay-runtime/query/GraphQLTag").getFragment,i=b("relay-runtime/store/RelayModernSelector").getVariablesFromFragment,j=b("relay-runtime/store/RelayStoreUtils").ID_KEY,k=b("relay-runtime/mutations/createUpdatableProxy").createUpdatableProxy;function a(a,b,c){a=h(a);var d=i(a,b);b=b[j];b=c.get(b);b!=null||g(0,void 0);return k(b,d,a.selections,c)}e.exports={readUpdatableFragment_EXPERIMENTAL:a}}),null);
