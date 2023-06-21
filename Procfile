@@ -1,0 +1,1 @@
+web gunicorn mayphatdien.wsgi:application --log-file -
