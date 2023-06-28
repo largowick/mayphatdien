@@ -1,1 +1,1 @@
-web gunicorn mayphatdien.wsgi:application --log-file -
+web: gunicorn mayphatdien.wsgi --log-file -

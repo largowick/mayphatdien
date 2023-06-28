@@ -32,7 +32,7 @@ XS_SHARING_ALLOWED_METHODS = ['POST', 'GET', 'OPTIONS', 'PUT', 'DELETE']
 SECRET_KEY = 'django-insecure-x-)1j6kr^s(x06a1-%!jlf)bsj1#yz2101x^me)e*tjkm4_ulo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
